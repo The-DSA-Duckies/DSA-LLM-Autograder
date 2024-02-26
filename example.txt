@@ -1,0 +1,42 @@
+CRITERIA:
+
+    Data Structure Used: The student describes the use of an adjacency list implemented with a vector of pages and vectors for the indices of the pages they point to. The rationale provided is space efficiency and faster access compared to string keys, which aligns with the rubric's requirement for a full explanation of the data structure used. However, the student does not compare this to other potential data structures, nor do they address potential limitations of their choice. This is not an omission but could be seen as a lack of depth in the justification.
+    Time Complexity - Methods: The student provides the time complexity for the insertEdge and PageRank methods with justifications. However, they do not mention the time complexity for any other methods. This could be considered an incomplete explanation since the rubric asks for the time complexity of "each method."
+    Time Complexity - Main Method: The student explains the time complexity of the main method, including the variables involved and their justifications, which meets the criteria for full points. However, it is worth noting that they do not discuss the impact of the sorting algorithm's choice on the overall complexity beyond its direct O(splog(p)) time.
+    Reflection: The student offers a reflection on what they would do differently, specifically mentioning a change in the data structure implementation. They also reflect on the project management aspect. This reflection is somewhat cursory and does not deeply explore the learning or the challenges they faced beyond the difficulties with data structure and the PageRank algorithm's understanding.
+
+FEEDBACK:
+
+    The student demonstrates an understanding of space efficiency in data structures and has chosen an appropriate structure for their PageRank implementation.
+    The time complexity explanations provided are adequate for the insertEdge and PageRank methods but lack a comprehensive review of all methods in the implementation.
+    The reflection shows some level of self-assessment, but a more thorough exploration of the problems encountered and the learning process would be beneficial.
+
+FIXING:
+
+    The student should provide a more thorough justification for their choice of data structure, including potential limitations and a comparison to alternative structures.
+    A complete analysis of the time complexity for all methods in the implementation is needed to fully meet the rubric's requirements.
+    A deeper reflection on the learning experience, discussing specific challenges and how they were overcome or could be overcome in the future, would be more in line with the rubric's criteria.
+
+GRADE:
+
+    Implementation: Cannot be graded without test case results.
+    Documentation:
+        Data Structure Description: w/2.5 points - Despite a good explanation, for a harsh grading, a deeper analysis could be required, potentially deducting 0.5 points for lack of comparison to other data structures.
+        Time Complexity - Methods: x/5 points - Time complexity for some methods is not mentioned.
+        Time Complexity - Main Method: y/5 points - Correctly described.
+        Reflection: z/2.5 points - The reflection could be considered shallow.
+    Code Style and Design: Cannot be graded without the actual code.
+        Design Decisions: ?/5 points - No information provided.
+        Comments: ?/2 points - No information provided.
+        Whitespace: ?/1 point - No information provided.
+        Naming Convention: ?/2 points - No information provided.
+    Catch Tests Bonus: Cannot be graded without evidence of submitted test cases.
+
+Based on the student's report, the score would be as follows:
+
+    Data Structure Description: w/2.5 points
+    Time Complexity - Methods: x/5 points
+    Time Complexity - Main Method: y/5 points
+    Reflection: z/2.5 points
+
+Total (without code style and test case grading): w + x + y + z/15 points deducted for the harsh grading on the data structure justification and incomplete time complexity analysis. The student's final score cannot be accurately determined without evaluating the code and test case results.

@@ -1,0 +1,172 @@
+Project 2
+Simplified PageRank
+
+ 
+
+There will be no late penalty for submitting this project late and you can submit up to 3 days late till Nov 13. However, Nov 13 is the final day for submission and you will receive a 0 after this.
+
+ 
+Problem Statement
+
+In this project you will be programming a simplified version of the Google's PageRank algorithm using an Adjacency List or equivalent implementation of the web graph. The project description handout can be found here: Project2_SimplifiedPageRank.pdf
+
+Download Project2_SimplifiedPageRank.pdf
+
+ 
+Testing
+
+    Test your code on Gradescope before submitting your implementation. You have five available test cases and you can submit any number of times. 
+    Create your own tests and test as much as possible. 
+    We will stick to the input format. No need to test for off-input statements such as inputting one URL instead of two in a line or testing whether a URL is valid or not.
+
+ 
+Grading
+
+    Implementation [75 points]
+            You are supposed to implement an Adjacency List data structure to represent the graph. Failure to implement this will incur a 25 points deduction.
+            Your code will be tested on 15 test cases each worth 5 points:
+                5 publicly available test cases.
+                10 test cases that will be added by the course staff and are not shown to the students.
+            Documentation [15 Points]
+                Submit a document addressing all these prompts:
+                    Describe the data structure you used to implement the graph and why? [2.5 points]
+                    What is the time complexity of each method in your implementation in the worst case in terms of Big O notation?  [5 points]
+                    What is the time complexity of your main method in your implementation in the worst case in terms of Big O notation? [5 points]
+                    What did you learn from this assignment and what would you do differently if you had to start over? [2.5 points]
+                Code Style and Design [10 Points]
+                    5 points for design decisions, a well-designed Graph API, and code modularity
+                    2 points for appropriate comments
+                    1 point for white spaces
+                    2 points for consistent naming conventions
+    Catch Tests Bonus [5 Points]
+        You can score 5 bonus points if you submit a separate file containing 5 test cases (1 point/test) using the Catch Framework. These tests should be different than the public test cases. Your score is however capped to 100 points for this project. This means that if you pass 14 tests and submit bonus test files, you will get a 100 provided you score full points on the documentation. Also, if you pass 15 tests and score 23 on documentation and design, + 5 points on bonus, you will still score 100 points [your score is 103 but is capped to 100 in this case].
+
+ 
+Submission
+
+    One or more .cpp or.h files that have your implementation. Test on gradescope early and often. 
+    One pdf file that has your documentation. Upper limit – 3 pages with 20% deduction in report per extra page. Cover page is not required, just your name on Page 1 is sufficient.
+    Optional for bonus: One pdf file that contains your Catch test cases code.
+
+ 
+Frequently Asked Questions
+
+    The course staff will maintain an active FAQ Google document to answer your questions. Post your questions in Slack, but we will answer in this document and send you the link. The link to the document is: https://docs.google.com/document/d/1a9hR1Ep2IYK-MnsXwl2VxyotO1Yd-XCC8NWUkdp24JM/ 
+
+    Links to an external site.
+
+ 
+Additional Optional Resources
+
+    Breakdown by Robin Fintz, Emily Lu, and Andrew Penton
+        Slides can be found here 
+
+Links to an external site.
+Video can be found here
+
+    Links to an external site.
+
+Page Rank Paper: https://www.sciencedirect.com/science/article/abs/pii/S016975529800110X
+Links to an external site. 
+Videos on Page Rank (The assignment is based on these videos): Lectures 5-8
+Links to an external site.
+Extended Videos (Not required for Project): Lecture 9-11
+
+ Page Rank
+Page Rank
+Criteria 	Ratings 	Pts
+This criterion is linked to a Learning Outcome Implementation
+	
+75 to >0.0 pts
+Test Cases
+5 point per correct test case
+	
+0 pts
+No test cases passed
+	
+75 pts
+This criterion is linked to a Learning Outcome Data Structure used
+	
+2.5 to >1.0 pts
+Full Marks
+States Data Structure used and the rationale
+	
+1 to >0.0 pts
+Partial Points
+States Data Structure used only
+	
+0 pts
+No Marks
+	
+2.5 pts
+This criterion is linked to a Learning Outcome Reflection
+What would you do differently?
+	
+2.5 to >0.0 pts
+Full Marks
+Reflection on what you would do differently
+	
+0 pts
+No Marks
+	
+2.5 pts
+This criterion is linked to a Learning Outcome Comments
+	
+2 to >0.0 pts
+Full Marks
+Code has appropriate comments
+	
+0 pts
+No Marks
+	
+2 pts
+This criterion is linked to a Learning Outcome Whitespace
+	
+1 to >0.0 pts
+Full Marks
+Code has appropriate whitespace
+	
+0 pts
+No Marks
+	
+1 pts
+This criterion is linked to a Learning Outcome Naming convention
+	
+2 to >0.0 pts
+Full Marks
+Code follows a naming convention that is coherent and consistent
+	
+0 pts
+No Marks
+	
+2 pts
+This criterion is linked to a Learning Outcome Design Decisions
+	
+5 to >0.0 pts
+Full Marks
+Code uses appropriate design decisions that creates a well-designed Graph API with modularity
+	
+0 pts
+No Marks
+	
+5 pts
+This criterion is linked to a Learning Outcome Computational Complexity (Main)
+	
+5 to >0.0 pts
+Describing Complexity of main method
+1. Big O complexity of main method 2. Worst case justified 3. The variables used in Big O are correct and same as in implementation
+	
+0 pts
+No Marks
+	
+5 pts
+This criterion is linked to a Learning Outcome Computational Complexity (Methods)
+	
+5 to >0.0 pts
+Describing Complexity of each method
+1. Big O complexity of each method 2. Worst cases justified 3. The variables used in Big O are correct and same as in implementation
+	
+0 pts
+No Marks
+	
+5 pts
