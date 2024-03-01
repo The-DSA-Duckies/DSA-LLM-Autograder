@@ -21,12 +21,6 @@ Testing
 
  
 Grading
-
-    Implementation [75 points]
-            You are supposed to implement an Adjacency List data structure to represent the graph. Failure to implement this will incur a 25 points deduction.
-            Your code will be tested on 15 test cases each worth 5 points:
-                5 publicly available test cases.
-                10 test cases that will be added by the course staff and are not shown to the students.
             Documentation [15 Points]
                 Submit a document addressing all these prompts:
                     Describe the data structure you used to implement the graph and why? [2.5 points]
@@ -39,7 +33,7 @@ Grading
                     1 point for white spaces
                     2 points for consistent naming conventions
     Catch Tests Bonus [5 Points]
-        You can score 5 bonus points if you submit a separate file containing 5 test cases (1 point/test) using the Catch Framework. These tests should be different than the public test cases. Your score is however capped to 100 points for this project. This means that if you pass 14 tests and submit bonus test files, you will get a 100 provided you score full points on the documentation. Also, if you pass 15 tests and score 23 on documentation and design, + 5 points on bonus, you will still score 100 points [your score is 103 but is capped to 100 in this case].
+        You can score 5 bonus points if you submit a separate file containing 5 test cases (1 point/test) using the Catch Framework. These tests should be different than the public test cases. Your score is however capped to 30 points for this grading.
 
  
 Submission
@@ -75,17 +69,7 @@ Extended Videos (Not required for Project): Lecture 9-11
  Page Rank
 Page Rank
 Criteria 	Ratings 	Pts
-This criterion is linked to a Learning Outcome Implementation
-	
-75 to >0.0 pts
-Test Cases
-5 point per correct test case
-	
-0 pts
-No test cases passed
-	
-75 pts
-This criterion is linked to a Learning Outcome Data Structure used
+
 	
 2.5 to >1.0 pts
 Full Marks

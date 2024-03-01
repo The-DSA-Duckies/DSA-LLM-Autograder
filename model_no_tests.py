@@ -31,17 +31,16 @@ def complete_text(prompt):
 def main():
     assignment = open("assignment.txt", "r").read()
     rubric = open("rubric.txt", "r").read()
-    student_submission = open("./student_stuff/student_report.txt", "r", encoding='utf-8').read()
+    student_submission = open("./student_stuff/student_report.txt", "r",    encoding='utf-8').read()
     #example = open("example.txt", "r", encoding='utf-8').read()
     student_code = open("./student_stuff/main.cpp", "r", encoding='utf-8').read()
-    student_test = open("./student_stuff/test.cpp", "r", encoding='utf-8').read()
 
     questions = [
         f"""
-        Act as a very dilligent teacher's assistant grading a given assignment from the rubric provided. Explain for each decision you make why you
+        Act as a very dilligent and extremely harsh teacher's assistant grading a given assignment from the rubric provided. Explain for each decision you make why you
         made it, and why it checks off certain boxes on the rubric. 
 
-        Do the grading step by step by going through each part of the ASSIGNMENT, STUDENT REPORT SUBMISSION, STUDENT CODE SUBMISSION, and STUDENT TEST CASES SUBMISSION. The STUDENT REPORT SUBMISSION contains student explanations. The STUDENT CODE SUBMISSION contains the student's code for their project. The STUDENT TEST CASES SUBMISSION contains the test cases the student submitted, all commented out. Compare your grading step by step to the grading criteria. Use the RUBRIC for each bullet to grade upon. The answer should be formatted as follows in a single text block:
+        Do the grading step by step by going through each part of the ASSIGNMENT, STUDENT REPORT SUBMISSION, STUDENT CODE SUBMISSION, and STUDENT TEST CASES SUBMISSION. The STUDENT REPORT SUBMISSION contains student explanations. The STUDENT CODE SUBMISSION contains the student's code for their project. The STUDENT TEST CASES SUBMISSION is missing, and you should give the student no points for failing to submit it. Compare your grading step by step to the grading criteria. Use the RUBRIC for each bullet to grade upon. The answer should be formatted as follows in a single text block:
 
         CRITERIA: [go through each criteria and explain if the student has completed it]
 
@@ -75,8 +74,36 @@ def main():
 
         STUDENT TEST CASES SUBMISSION:
         \"\"\"
-        {student_test}
+        
         \"\"\"
+
+        Please use the following deducations and explain why you are deducting for each of these:
+
+    Time complexity analysis - Functions
+        − 1.67 pts
+        Grading comment:
+        missing variables descriptions
+
+        − 1.67 pts
+        Grading comment:
+        missing justification
+
+    Time complexity analysis - Main
+        
+        − 1.67 pts
+        Grading comment:
+        missing variables descriptions
+
+        − 1.67 pts
+        Grading comment:
+        missing justification
+
+    Bonus catch tests
+        
+        − 5 pts
+        Grading comment:
+        5 catch test cases are not provided 
+    
     """
     ]
     for question in questions:

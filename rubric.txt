@@ -1,1 +1,263 @@
-**Graph representation**: Graph represented as a Adjacency List	**Graph representation**: Graph represented as an Adjacency Matrix	**Describe the data structure** you used to implement the graph and **why**? : described and justified	**Describe the data structure** you used to implement the graph and **why**? : missing description and justification	**Describe the data structure** you used to implement the graph and **why**? : missing justification	**Describe the data structure** you used to implement the graph and **why**? : Incorrect information in justification	**Describe the data structure** you used to implement the graph and **why**? : Vague justification	**Describe the data structure** you used to implement the graph and **why**? : Vague description	**Describe the data structure** you used to implement the graph and **why**? : Vague justification and description	**Describe the data structure** you used to implement the graph and **why**? : Missing description	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: Time complexity analysis meets expectations	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: missing variables descriptions	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: missing justification	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: all complexities missing or incorrect	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: 1 wrong time complexity	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: 2 wrong time complexities	**Time complexity analysis** - **Functions** - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.: Complexities can be further simplified	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: Time complexity analysis meets expectations	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: missing variables descriptions	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: missing justification	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: complexity incorrect	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: can be further simplified	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: complexity stated is less than theoretical minimum or does not match the code logic	**Time complexity analysis** - **Main** method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is $$ \Omega(pV^2)  $$ or $$ \Omega(pE)  $$: Missing main function complexity analysis 	**Reflection on learning: **What did you learn from this assignment and what would you do differently if you had to start over?: Reflection meets expectations	**Reflection on learning: **What did you learn from this assignment and what would you do differently if you had to start over?: Missing reflection 	**Reflection on learning: **What did you learn from this assignment and what would you do differently if you had to start over?: Reflection too shallow or less than 2 sentences	**Code Style and Design **: Code quality meets expectations	**Code Style and Design **: Too few comments	**Code Style and Design **: Program still contains commented out code, could be cleaned up	**Code Style and Design **: inadequate commenting or no comments present in the code	**Code Style and Design **: inconsistent whitespace	**Code Style and Design **: naming conventions have some room for improvement	**Code Style and Design **: naming conventions are inconsistent	**Code Style and Design **: Code could be slightly more modular	**Code Style and Design **: code modularity has room for improvement	**Code Style and Design **: No modularization at all. The entire project is completed in the main method.	**Code Style and Design **: Missing code submission	**Code Style and Design **: Memory leaks	**Bonus catch tests**: 5 catch test cases **are provided**	**Bonus catch tests**: 5 catch test cases **are not provided** 	**Bonus catch tests**: only 1 test case provided	**Bonus catch tests**: only 2 test cases provided	**Bonus catch tests**: only 3 test cases provided	**Bonus catch tests**: only 4 test cases provided
+Report/Test Cases
+Resolved
+30 / 30 pts
+Grading comment:
+Graph representation
+
+applied rubric item
+− 0 pts
+Grading comment:
+Graph represented as a Adjacency List
+
+unapplied rubric item
+− 25 pts
+Grading comment:
+Graph represented as an Adjacency Matrix
+
+Grading comment:
+Describe the data structure you used to implement the graph and why? 
+
+applied rubric item
+− 0 pts
+Grading comment:
+described and justified
+
+unapplied rubric item
+− 2.5 pts
+Grading comment:
+missing description and justification
+
+unapplied rubric item
+− 1.5 pts
+Grading comment:
+missing justification
+
+unapplied rubric item
+− 1.5 pts
+Grading comment:
+Incorrect information in justification
+
+unapplied rubric item
+− 0.5 pts
+Grading comment:
+Vague justification
+
+unapplied rubric item
+− 0.5 pts
+Grading comment:
+Vague description
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+Vague justification and description
+
+unapplied rubric item
+− 1.5 pts
+Grading comment:
+Missing description
+
+Grading comment:
+Time complexity analysis - Functions - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification.
+
+applied rubric item
+− 0 pts
+Grading comment:
+Time complexity analysis meets expectations
+
+unapplied rubric item
+− 1.67 pts
+Grading comment:
+missing variables descriptions
+
+unapplied rubric item
+− 1.67 pts
+Grading comment:
+missing justification
+
+unapplied rubric item
+− 5 pts
+Grading comment:
+all complexities missing or incorrect
+
+unapplied rubric item
+− 1.67 pts
+Grading comment:
+1 wrong time complexity
+
+unapplied rubric item
+− 3.34 pts
+Grading comment:
+2 wrong time complexities
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+Complexities can be further simplified
+
+Grading comment:
+Time complexity analysis - Main method - What is the computational complexity of each method in the worst case? - 1.67 points for correct complexity, 1.67 for describing variables and 1.67 for justification. Note that the theoretical minimum is 
+Ω
+(
+�
+�
+2
+)
+Ω(pV 
+2
+ ) or 
+Ω
+(
+�
+�
+)
+Ω(pE)
+
+unapplied rubric item
+− 0 pts
+Grading comment:
+Time complexity analysis meets expectations
+
+unapplied rubric item
+− 1.67 pts
+Grading comment:
+missing variables descriptions
+
+unapplied rubric item
+− 1.67 pts
+Grading comment:
+missing justification
+
+unapplied rubric item
+− 1.67 pts
+Grading comment:
+complexity incorrect
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+can be further simplified
+
+unapplied rubric item
+− 5 pts
+Grading comment:
+complexity stated is less than theoretical minimum or does not match the code logic
+
+unapplied rubric item
+− 5 pts
+Grading comment:
+Missing main function complexity analysis 
+
+Grading comment:
+Reflection on learning: What did you learn from this assignment and what would you do differently if you had to start over?
+
+applied rubric item
+− 0 pts
+Grading comment:
+Reflection meets expectations
+
+unapplied rubric item
+− 2.5 pts
+Grading comment:
+Missing reflection 
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+Reflection too shallow or less than 2 sentences
+
+Grading comment:
+Code Style and Design 
+
+applied rubric item
+− 0 pts
+Grading comment:
+Code quality meets expectations
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+Too few comments
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+Program still contains commented out code, could be cleaned up
+
+unapplied rubric item
+− 2 pts
+Grading comment:
+inadequate commenting or no comments present in the code
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+inconsistent whitespace
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+naming conventions have some room for improvement
+
+unapplied rubric item
+− 2 pts
+Grading comment:
+naming conventions are inconsistent
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+Code could be slightly more modular
+
+unapplied rubric item
+− 2.5 pts
+Grading comment:
+code modularity has room for improvement
+
+unapplied rubric item
+− 5 pts
+Grading comment:
+No modularization at all. The entire project is completed in the main method.
+
+unapplied rubric item
+− 5 pts
+Grading comment:
+Missing code submission
+
+unapplied rubric item
+− 2 pts
+Grading comment:
+Memory leaks
+
+Grading comment:
+Bonus catch tests
+
+applied rubric item
+− 0 pts
+Grading comment:
+5 catch test cases are provided
+
+unapplied rubric item
+− 5 pts
+Grading comment:
+5 catch test cases are not provided 
+
+unapplied rubric item
+− 4 pts
+Grading comment:
+only 1 test case provided
+
+unapplied rubric item
+− 3 pts
+Grading comment:
+only 2 test cases provided
+
+unapplied rubric item
+− 2 pts
+Grading comment:
+only 3 test cases provided
+
+unapplied rubric item
+− 1 pt
+Grading comment:
+only 4 test cases provided
