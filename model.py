@@ -21,7 +21,7 @@ def complete_text(prompt):
     response = client.chat.completions.create(
         model="gpt-4", # note, test this with gpt-4 for quality improvements
         messages=[
-            {"role": "system", "content": "You are an instructor."},
+            {"role": "system", "content": "You are an instructor who is very good at grading."},
             {"role": "user", "content": prompt},
         ]
     )
