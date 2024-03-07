@@ -40,9 +40,8 @@ def complete_text_anthropic(prompt):
         model="claude-3-opus-20240229",
         max_tokens=32000,
         temperature=0.0,
-        system="Respond only in Yoda-speak.",
+        system="You are an instructor who is very good at grading.",
         messages=[
-            {"role": "system", "content": "You are an instructor who is very good at grading."},
             {"role": "user", "content": prompt},
         ]
     )
