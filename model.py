@@ -49,6 +49,25 @@ def complete_text_anthropic(prompt):
 
     return message.content
 
+def perform_operations():
+    pass
+
+def database_sync():
+    pass
+
+
+def iterate_through_all_assignments_and_rubrics_in_a_batch(batch, cur_assignment, cur_rubric):
+    assignment = cur_assignment
+    rubric = cur_rubric
+    for folder in batch:
+        student_submission = folder.student_submission
+        student_code = folder.student_code
+        student_test = folder.student_test
+
+        perform_operations()
+
+        database_sync()
+
 
 @stub.local_entrypoint()
 def main():
